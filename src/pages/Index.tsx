@@ -10,14 +10,14 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <h1 className="text-xl font-inter font-bold text-foreground">
-              Александр Иванов
+              Дмитрий Петров
             </h1>
             <div className="hidden md:flex space-x-8">
               <a href="#about" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                 Обо мне
               </a>
-              <a href="#achievements" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                Достижения
+              <a href="#goals" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+                Цели
               </a>
               <a href="#projects" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                 Проекты
@@ -35,21 +35,21 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-inter font-bold text-foreground mb-6">
-              Бизнес-консультант и<br />
-              <span className="text-primary">стратегический партнер</span>
+              Начинающий предприниматель и<br />
+              <span className="text-primary">будущий лидер бизнеса</span>
             </h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Помогаю компаниям достигать новых высот через инновационные решения 
-              и стратегическое планирование. Более 15 лет опыта в развитии бизнеса.
+              Активно изучаю мир бизнеса, развиваю навыки и ищу возможности для создания 
+              собственного дела. Готов к новым вызовам и амбициозным проектам.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="text-base px-8">
-                Обсудить проект
+                Связаться со мной
                 <Icon name="ArrowRight" size={20} />
               </Button>
               <Button variant="outline" size="lg" className="text-base px-8">
-                Скачать резюме
-                <Icon name="Download" size={20} />
+                Мои навыки
+                <Icon name="User" size={20} />
               </Button>
             </div>
           </div>
@@ -66,24 +66,23 @@ const Index = () => {
               </h3>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Предприниматель с многолетним опытом создания и развития успешных бизнес-проектов. 
-                  Специализируюсь на стратегическом консалтинге, цифровой трансформации и управлении инновациями.
+                  Молодой и амбициозный человек, который только начинает свой путь в мире бизнеса. 
+                  Активно изучаю основы предпринимательства, посещаю курсы и семинары, читаю профильную литературу.
                 </p>
                 <p>
-                  За годы работы помог более чем 100 компаниям оптимизировать процессы, увеличить прибыль 
-                  и выйти на новые рынки. Мой подход основан на глубоком анализе, инновационных решениях 
-                  и долгосрочном партнерстве.
+                  Верю в силу инноваций и современных технологий. Мечтаю создать собственный бизнес, 
+                  который принесет пользу людям и станет успешным проектом. Готов учиться, работать и развиваться.
                 </p>
               </div>
               
               <div className="grid grid-cols-2 gap-6 mt-8">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary mb-2">100+</div>
-                  <div className="text-sm text-muted-foreground">Успешных проектов</div>
+                  <div className="text-3xl font-bold text-primary mb-2">3</div>
+                  <div className="text-sm text-muted-foreground">Учебных проекта</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary mb-2">15+</div>
-                  <div className="text-sm text-muted-foreground">Лет опыта</div>
+                  <div className="text-3xl font-bold text-primary mb-2">2</div>
+                  <div className="text-sm text-muted-foreground">Года обучения</div>
                 </div>
               </div>
             </div>
@@ -93,12 +92,12 @@ const Index = () => {
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
                     <div className="p-2 bg-primary/10 rounded-lg">
-                      <Icon name="Target" size={24} className="text-primary" />
+                      <Icon name="Search" size={24} className="text-primary" />
                     </div>
                     <div>
-                      <h4 className="font-semibold mb-2">Стратегическое планирование</h4>
+                      <h4 className="font-semibold mb-2">Изучение рынка</h4>
                       <p className="text-sm text-muted-foreground">
-                        Разработка долгосрочных стратегий развития и роста бизнеса
+                        Анализ трендов, потребностей клиентов и поиск бизнес-возможностей
                       </p>
                     </div>
                   </div>
@@ -109,12 +108,12 @@ const Index = () => {
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
                     <div className="p-2 bg-primary/10 rounded-lg">
-                      <Icon name="TrendingUp" size={24} className="text-primary" />
+                      <Icon name="BookOpen" size={24} className="text-primary" />
                     </div>
                     <div>
-                      <h4 className="font-semibold mb-2">Масштабирование бизнеса</h4>
+                      <h4 className="font-semibold mb-2">Развитие навыков</h4>
                       <p className="text-sm text-muted-foreground">
-                        Оптимизация процессов и структур для устойчивого роста
+                        Постоянное обучение и освоение новых компетенций для бизнеса
                       </p>
                     </div>
                   </div>
@@ -125,15 +124,15 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Achievements Section */}
-      <section id="achievements" className="py-24">
+      {/* Goals Section */}
+      <section id="goals" className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h3 className="text-3xl font-inter font-bold text-foreground mb-4">
-              Ключевые достижения
+              Мои цели и планы
             </h3>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Результаты, которые говорят сами за себя
+              Куда стремлюсь и чего хочу достичь
             </p>
           </div>
           
@@ -141,10 +140,20 @@ const Index = () => {
             <Card className="text-center">
               <CardContent className="p-6">
                 <div className="p-3 bg-primary/10 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                  <Icon name="Award" size={24} className="text-primary" />
+                  <Icon name="GraduationCap" size={24} className="text-primary" />
                 </div>
-                <div className="text-2xl font-bold text-primary mb-2">₽2.5М</div>
-                <p className="text-sm text-muted-foreground">Средний рост прибыли клиентов</p>
+                <div className="text-lg font-bold text-primary mb-2">MBA</div>
+                <p className="text-sm text-muted-foreground">Получить бизнес-образование</p>
+              </CardContent>
+            </Card>
+            
+            <Card className="text-center">
+              <CardContent className="p-6">
+                <div className="p-3 bg-primary/10 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+                  <Icon name="Lightbulb" size={24} className="text-primary" />
+                </div>
+                <div className="text-lg font-bold text-primary mb-2">Стартап</div>
+                <p className="text-sm text-muted-foreground">Запустить собственный проект</p>
               </CardContent>
             </Card>
             
@@ -153,28 +162,18 @@ const Index = () => {
                 <div className="p-3 bg-primary/10 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                   <Icon name="Users" size={24} className="text-primary" />
                 </div>
-                <div className="text-2xl font-bold text-primary mb-2">50+</div>
-                <p className="text-sm text-muted-foreground">Команд обучено и развито</p>
+                <div className="text-lg font-bold text-primary mb-2">Команда</div>
+                <p className="text-sm text-muted-foreground">Собрать сильную команду</p>
               </CardContent>
             </Card>
             
             <Card className="text-center">
               <CardContent className="p-6">
                 <div className="p-3 bg-primary/10 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                  <Icon name="Globe" size={24} className="text-primary" />
+                  <Icon name="TrendingUp" size={24} className="text-primary" />
                 </div>
-                <div className="text-2xl font-bold text-primary mb-2">12</div>
-                <p className="text-sm text-muted-foreground">Международных проектов</p>
-              </CardContent>
-            </Card>
-            
-            <Card className="text-center">
-              <CardContent className="p-6">
-                <div className="p-3 bg-primary/10 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                  <Icon name="Zap" size={24} className="text-primary" />
-                </div>
-                <div className="text-2xl font-bold text-primary mb-2">95%</div>
-                <p className="text-sm text-muted-foreground">Успешность проектов</p>
+                <div className="text-lg font-bold text-primary mb-2">Рост</div>
+                <p className="text-sm text-muted-foreground">Масштабировать бизнес</p>
               </CardContent>
             </Card>
           </div>
@@ -186,10 +185,10 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h3 className="text-3xl font-inter font-bold text-foreground mb-4">
-              Избранные проекты
+              Учебные проекты
             </h3>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Примеры успешного сотрудничества с клиентами
+              Мой опыт и первые шаги в бизнесе
             </p>
           </div>
           
@@ -198,24 +197,24 @@ const Index = () => {
               <div className="aspect-video bg-gradient-to-br from-primary/20 to-primary/5">
                 <img 
                   src="/img/b7673088-e28e-4c44-a774-5363049a504a.jpg" 
-                  alt="Проект цифровой трансформации"
+                  alt="Бизнес-план стартапа"
                   className="w-full h-full object-cover"
                 />
               </div>
               <CardHeader>
-                <CardTitle className="text-xl">Цифровая трансформация</CardTitle>
+                <CardTitle className="text-xl">Бизнес-план стартапа</CardTitle>
                 <CardDescription>
-                  Технологическая компания • 2023
+                  Учебный проект • 2024
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  Полная цифровизация бизнес-процессов, увеличение эффективности на 40% 
-                  и сокращение операционных расходов на ₽1.2М в год.
+                  Разработка комплексного бизнес-плана для IT-стартапа с анализом рынка, 
+                  финансовой моделью и стратегией развития.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <span className="px-2 py-1 bg-primary/10 text-primary text-xs rounded-full">Стратегия</span>
-                  <span className="px-2 py-1 bg-primary/10 text-primary text-xs rounded-full">Digital</span>
+                  <span className="px-2 py-1 bg-primary/10 text-primary text-xs rounded-full">Планирование</span>
+                  <span className="px-2 py-1 bg-primary/10 text-primary text-xs rounded-full">Анализ</span>
                 </div>
               </CardContent>
             </Card>
@@ -224,24 +223,24 @@ const Index = () => {
               <div className="aspect-video bg-gradient-to-br from-primary/20 to-primary/5">
                 <img 
                   src="/img/4446696b-eac7-4163-935d-8095773343ad.jpg" 
-                  alt="Аналитическая система"
+                  alt="Маркетинговое исследование"
                   className="w-full h-full object-cover"
                 />
               </div>
               <CardHeader>
-                <CardTitle className="text-xl">Аналитическая система</CardTitle>
+                <CardTitle className="text-xl">Маркетинговое исследование</CardTitle>
                 <CardDescription>
-                  Розничная сеть • 2023
+                  Курсовой проект • 2023
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  Внедрение системы бизнес-аналитики и прогнозирования, 
-                  повышение точности планирования на 60%.
+                  Глубокий анализ потребительских предпочтений на рынке 
+                  экологических товаров и разработка рекомендаций.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <span className="px-2 py-1 bg-primary/10 text-primary text-xs rounded-full">Аналитика</span>
-                  <span className="px-2 py-1 bg-primary/10 text-primary text-xs rounded-full">BI</span>
+                  <span className="px-2 py-1 bg-primary/10 text-primary text-xs rounded-full">Маркетинг</span>
+                  <span className="px-2 py-1 bg-primary/10 text-primary text-xs rounded-full">Исследование</span>
                 </div>
               </CardContent>
             </Card>
@@ -250,24 +249,24 @@ const Index = () => {
               <div className="aspect-video bg-gradient-to-br from-primary/20 to-primary/5">
                 <img 
                   src="/img/bc071939-7dbe-4ab3-a529-3b4b30b18b2a.jpg" 
-                  alt="Консалтинговый проект"
+                  alt="Проект по менеджменту"
                   className="w-full h-full object-cover"
                 />
               </div>
               <CardHeader>
-                <CardTitle className="text-xl">Стратегический консалтинг</CardTitle>
+                <CardTitle className="text-xl">Управление проектом</CardTitle>
                 <CardDescription>
-                  Производственное предприятие • 2022
+                  Командная работа • 2023
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  Разработка стратегии выхода на европейский рынок, 
-                  увеличение выручки на ₽15М за первый год.
+                  Руководство студенческой командой в разработке концепции 
+                  социального предприятия для помощи пожилым людям.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <span className="px-2 py-1 bg-primary/10 text-primary text-xs rounded-full">Экспорт</span>
-                  <span className="px-2 py-1 bg-primary/10 text-primary text-xs rounded-full">Рост</span>
+                  <span className="px-2 py-1 bg-primary/10 text-primary text-xs rounded-full">Лидерство</span>
+                  <span className="px-2 py-1 bg-primary/10 text-primary text-xs rounded-full">Команда</span>
                 </div>
               </CardContent>
             </Card>
@@ -279,10 +278,10 @@ const Index = () => {
       <section id="contact" className="py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h3 className="text-3xl font-inter font-bold text-foreground mb-6">
-            Готов к сотрудничеству?
+            Готов к новым знакомствам?
           </h3>
           <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Обсудим ваши цели и найдем решения для развития вашего бизнеса
+            Ищу наставников, единомышленников и возможности для развития
           </p>
           
           <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -292,17 +291,17 @@ const Index = () => {
                   <Icon name="Mail" size={20} className="text-primary" />
                 </div>
                 <h4 className="font-semibold mb-2">Email</h4>
-                <p className="text-muted-foreground">a.ivanov@business.com</p>
+                <p className="text-muted-foreground">d.petrov@student.com</p>
               </CardContent>
             </Card>
             
             <Card>
               <CardContent className="p-6 text-center">
                 <div className="p-3 bg-primary/10 rounded-full w-12 h-12 mx-auto mb-4 flex items-center justify-center">
-                  <Icon name="Phone" size={20} className="text-primary" />
+                  <Icon name="MessageCircle" size={20} className="text-primary" />
                 </div>
-                <h4 className="font-semibold mb-2">Телефон</h4>
-                <p className="text-muted-foreground">+7 (495) 123-45-67</p>
+                <h4 className="font-semibold mb-2">Telegram</h4>
+                <p className="text-muted-foreground">@dmitry_petrov</p>
               </CardContent>
             </Card>
             
@@ -312,14 +311,14 @@ const Index = () => {
                   <Icon name="Linkedin" size={20} className="text-primary" />
                 </div>
                 <h4 className="font-semibold mb-2">LinkedIn</h4>
-                <p className="text-muted-foreground">alexander-ivanov</p>
+                <p className="text-muted-foreground">dmitry-petrov-business</p>
               </CardContent>
             </Card>
           </div>
           
           <Button size="lg" className="text-base px-8">
-            <Icon name="Calendar" size={20} />
-            Записаться на консультацию
+            <Icon name="Coffee" size={20} />
+            Встретиться за кофе
           </Button>
         </div>
       </section>
@@ -329,14 +328,14 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-muted-foreground mb-4 md:mb-0">
-              © 2024 Александр Иванов. Все права защищены.
+              © 2024 Дмитрий Петров. Все права защищены.
             </p>
             <div className="flex space-x-6">
               <a href="#" className="text-muted-foreground hover:text-primary">
                 <Icon name="Linkedin" size={20} />
               </a>
               <a href="#" className="text-muted-foreground hover:text-primary">
-                <Icon name="Twitter" size={20} />
+                <Icon name="MessageCircle" size={20} />
               </a>
               <a href="#" className="text-muted-foreground hover:text-primary">
                 <Icon name="Mail" size={20} />
